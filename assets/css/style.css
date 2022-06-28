@@ -1,0 +1,46 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.footer
+{
+    background-color: pink;
+}
+
+h1
+{
+    font-size: 50px;
+    background: -webkit-linear-gradient(pink, black);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.btn
+{
+    background-color: pink;
+    border-radius: 10%;
+    border-style: none;
+    border-color: black;
+    color: black;
+}
+
+.btn:hover
+{
+     background-color: palevioletred;
+     border-color: black;
+}
+
+.profes
+{
+    border-radius: 2%;
+    border-color: pink;
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+}
